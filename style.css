@@ -9,21 +9,25 @@
   text-align: right;
 }
 .row:nth-child(even) { 
-  background: red; 
+  background: #B22234; 
 }
 .stars {
-  background: blue;
-  width: 250px;
+  background: #3C3B6E;
+  width: 380px;
   height: 250px;
   position: absolute;
+  padding-top: 3px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
 
 .star-row {
-  margin-left: 4px;
+  /*margin-left: 4px;*/
 }
 
 .star-row:nth-child(even) {
-  margin-left: 23px;
+  margin-left: 36px;
 }
 
 star {
@@ -35,7 +39,7 @@ star {
   display: block;
   float: left;
   position: relative;
-  margin: -15px -80px -29px -80px;
+  margin: -13px -68px -32px -69px;
   border: 100px solid rgba(0,0,0,0);
   border-top: 0 solid;
   border-bottom: 70px solid #fff;
@@ -43,8 +47,8 @@ star {
   color: red;
   -o-text-overflow: clip;
   text-overflow: clip;
-  -webkit-transform: rotateZ(35deg) scaleX(0.15) scaleY(0.15);
-  transform: rotateZ(35deg) scaleX(0.1) scaleY(0.1);
+  -webkit-transform: rotateZ(35deg) scaleX(0.125) scaleY(0.125);
+  transform: rotateZ(35deg) scaleX(0.125) scaleY(0.125);
 }
 
 star::before {
